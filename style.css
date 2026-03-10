@@ -1,0 +1,159 @@
+html{
+    scroll-behavior: smooth;
+    background-color: rgb(185, 166, 108);
+}
+body{
+    margin:0;
+}
+header{
+    text-align: center;
+    box-shadow: 0px 0px 5px;
+    background-color: rgba(248, 190, 104, 0.363);
+    position: fixed;
+    width: 100%;
+}
+header img{
+    height: 100px;
+    width: 300px;
+}
+nav{
+padding: 10px;
+}
+nav a{
+    text-decoration:none;
+    border-radius: 20px 20px 0px 0px;
+    color:rgb(77, 52, 52);
+    font-size:20px;
+    padding:5px 15px;
+    font-family: Akronim;
+}
+nav a:hover{
+    color:black;
+    background-color:rgb(229, 202, 127);
+    border-radius:20px 0px 20px 0px;
+    box-shadow: 5px 2px 3px 0px  rgb(245, 206, 65);
+    padding:7px 15px;
+    transition:0.7s;
+}
+.home{
+    height: 800px;
+    background-image: url("brem.png");
+    background-size: cover;
+    padding-top: 50px;
+
+}
+
+.deskripsihome{
+    width: 40%;
+    font-size: 20px;
+    background-size: cover;
+    padding-top:50px;
+    margin-left: 50px;
+    & h1{
+        color: azure;
+    }
+    & h3{
+        color: rgb(85, 76, 46);
+        padding: 10 px 10 px;
+        border-radius: 10px;
+        background-color: rgba(206, 142, 97, 0.342);
+    }
+    & p{
+        color: beige;
+        background-color:rgba(140, 135, 77, 0.425);
+        padding: 10 px 10 px;
+        border-radius: 10px;
+    }
+}
+.deskripsihome a{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(154, 172, 118);
+    padding:10px 25px;
+    border-radius:30px;
+    transition:0.3s;
+}
+.deskripsihome a:hover{
+    box-shadow: 3px 3px 5px -3px black;
+    transition: 0.5s;
+}
+Section.project{
+    height: 800px;
+    text-align: center;
+}
+.containerabout{
+    width: 50%;
+    margin: auto;
+    padding: 50px 20px;
+    & img {
+        height: 300px;
+    }
+}
+.cardProfile{
+    background-color: rgb(213, 209, 209);
+    padding: 15px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.imgProfile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
+}
+section.howto{
+    height: 640px;
+    padding-top: 10px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.howto img{
+    height: 500px;
+}
+.deskHowto{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+.dokumentasi img{
+    height: 150px;
+}
+section.project{
+    background-color: rgb(196, 145, 84);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+section.howto{
+    background-color: rgb(196, 145, 84);
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+.deskCon{
+    width: 60%;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    & img{
+        height: 500px;
+    }
+}
