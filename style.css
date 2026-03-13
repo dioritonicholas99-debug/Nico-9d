@@ -1,5 +1,4 @@
 html{
-    scroll-behavior: smooth;
     background-color: rgb(185, 166, 108);
 }
 body{
@@ -156,4 +155,5 @@ section.howto{
     & img{
         height: 500px;
     }
+
 }
